@@ -195,7 +195,7 @@ public class Logic
     }
 
     public static double sphereVolume(double radius) {
-        return (4/3) * Math.PI * Math.pow(radius, 3);
+        return (4 * Math.PI * Math.pow(radius, 3))/ 3;
     }
 
     public static double sphereSurfaceArea(double radius) {

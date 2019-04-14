@@ -134,20 +134,25 @@
             android:layout_weight="1" />
 
     </LinearLayout>
+
     <EditText
+        android:id="@+id/outputET"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:includeFontPadding="false"
-        android:lineSpacingExtra="1dp"
-        android:lineSpacingMultiplier="1"
-        android:id="@+id/outputET"
         android:layout_below="@+id/linearLayout5"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:inputType="textMultiLine"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
         android:hint="Output Will Appear Here..."
+        android:includeFontPadding="false"
+        android:inputType="textMultiLine"
+        android:lineSpacingExtra="1dp"
+        android:lineSpacingMultiplier="1"
         android:typeface="monospace" />
 
 </RelativeLayout>
